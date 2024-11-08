@@ -1,9 +1,9 @@
-import Hero from '../sections/Hero'
+import Home from '../sections/Home'
 
 function HomePage() {
   return (
-    <div>
-      <Hero />
+    <div className='bg-black border border-red-900'>
+      <Home />
     </div>
   )
 }
