@@ -1,9 +1,11 @@
-import Hero from '../sections/Hero'
+import NavBar from '../components/NavBar'
+import Home from '../sections/Home'
 
 function HomePage() {
   return (
-    <div>
-      <Hero />
+    <div className='bg-black'>
+      <NavBar />
+      <Home />
     </div>
   )
 }
