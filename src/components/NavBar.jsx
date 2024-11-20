@@ -19,10 +19,10 @@ function NavBar() {
   };
 
   return (
-    <div>
-      <div className="hidden md:flex justify-end w-full px-6 gap-4">
+    <div className="max-w-[1920px] mx-auto">
+      <div className="hidden md:flex p-4 justify-end w-full px-6 gap-4">
         {navItems.map((item) => (
-          <li
+          <ul
             key={item.id}
             className={`self-center transition duration-300 cursor-pointer ${
               item.id === "wallet"
@@ -32,7 +32,7 @@ function NavBar() {
             onClick={() => handleScroll(item.id)}
           >
             {item.label}
-          </li>
+          </ul>
         ))}
 
         <div
