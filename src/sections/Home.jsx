@@ -16,7 +16,7 @@ function Home() {
         </div>
         {/* image */}
         <div className='w-2/5 p-20 self-center'>
-          <img src={profile} alt="profile" className='' />
+          <img src={profile} alt="profile" className='rounded-3xl' />
         </div>
         {/* social media icons */}
         <div></div>
