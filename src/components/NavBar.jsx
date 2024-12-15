@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { FaWindowClose } from "react-icons/fa";
 import { TiThMenu } from "react-icons/ti";
-import { navItems } from "../constants/NavItems";
+import { navItems } from "../constants/navItems";
 
 function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

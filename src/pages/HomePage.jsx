@@ -1,11 +1,11 @@
 import NavBar from '../components/NavBar'
-import Home from '../sections/Home'
+import Hero from '../sections/Hero'
 
 function HomePage() {
   return (
     <div className='bg-black'>
       <NavBar />
-      <Home />
+      <Hero />
     </div>
   )
 }
