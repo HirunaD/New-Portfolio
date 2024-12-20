@@ -34,7 +34,7 @@ function Hero() {
       <div className="flex">
         {/* description */}
         <div className="w-3/5 p-20 space-y-10">
-          <h1 className="text-white font-bold text-5xl">
+          <h1 className="text-white font-bold text-5xl ">
             Hi, I am{" "}
             <span className="text-[#8bc7f3] font-extrabold">
               HIRUNA DE SILVA
